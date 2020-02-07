@@ -71,7 +71,7 @@ const Header = ({ isScrolled, isMobileMenuVisible, toggleMobileMenu }) => (
             {/*</li>*/}
             <li className="menu-has-children">
               <h5 className="menu-has-children__title">Solutions</h5>
-              <ul className="nav-submenu nav-submenu--compact">
+              <ul className="nav-submenu">
                 <span className="nav-submenu__col">
                   <h6>By Use Case</h6>
                   <li>
@@ -87,11 +87,20 @@ const Header = ({ isScrolled, isMobileMenuVisible, toggleMobileMenu }) => (
                     </Link>
                   </li>
                   <li>
-                    <Link to="/solutions/lending">
+                    <Link to="/solutions/income-verification">
                       <img src={'/icons/credit-card-check-bold-green.png'} alt="" />
                       <div className="nav-submenu__item">
-                        <span>Lending</span>
-                        <span>Verify income, liabilities & ID</span>
+                        <span>Income Verification</span>
+                        <span>Save the paperwork, give instant decisions</span>
+                      </div>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/solutions/transaction-analytics">
+                      <img src={'/icons/visualizations.png'} alt="" />
+                      <div className="nav-submenu__item">
+                        <span>Transaction Analytics</span>
+                        <span>Personalise your services and analyse the market</span>
                       </div>
                     </Link>
                   </li>
@@ -111,8 +120,8 @@ const Header = ({ isScrolled, isMobileMenuVisible, toggleMobileMenu }) => (
                     <Link to="/solutions/knowledge-graphs">
                       <img src={'/icons/brain-icon-bold-green.png'} alt="" />
                       <div className="nav-submenu__item">
-                        <span>Knowledge graphs</span>
-                        <span>Transform data to knowledge</span>
+                        <span>Knowledge Graphs</span>
+                        <span>Break down data silos and generate knowledge</span>
                       </div>
                     </Link>
                   </li>

@@ -30,10 +30,10 @@ icon: lab-tube-bold-green.png
 
 ---
 
-# Lending
-## Improve your KYC and AML processes and reduce your operational costs.
+# Income verification
+## Automate income verification, save the paperwork, give instant decisions
 ### user-360-bold-green.png
-#### /solutions/lending
+#### /solutions/income-verification
 
 ---
 
@@ -44,10 +44,10 @@ icon: lab-tube-bold-green.png
 
 ---
 
-# AI and Machine Learning 
-## Easily implement AI initiatives within your company and introduce digital assistants
+# Transaction analytics with AI
+## Combine machine learning with Transaction Analytics to uncover hidden market insights
 ### robot-head-bold-green.png
-#### /solutions/machine-learning
+#### /solutions/transaction-analytics
 
 ---
 

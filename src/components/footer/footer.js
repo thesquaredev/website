@@ -28,9 +28,16 @@ const Footer = () => (
                   </Link>
                 </li>
                 <li>
-                  <Link to="/solutions/lending">
+                  <Link to="/solutions/income-verification">
                     <div className="footer__menu__item">
-                      <span>Lending</span>
+                      <span>Income Verification</span>
+                    </div>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/solutions/transaction-analytics">
+                    <div className="footer__menu__item">
+                      <span>Transaction Analytics</span>
                     </div>
                   </Link>
                 </li>
