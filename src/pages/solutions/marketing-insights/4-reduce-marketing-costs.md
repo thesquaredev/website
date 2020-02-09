@@ -17,14 +17,12 @@
 template: default
 component: imageText
 headline: _ Use case
-heading: Predict new trends and react accordingly
+heading: Reduce marketing costs
 btnTxt: ''
 btnUrl: ''
-image: happy-marketing-team.png
+image: flow-mac.jpg
 imagePosition: right
 backgroundSize: cover
 ---
 
-By using Transaction analytics, demand signals can be identified, predicting emerging trends of customers.
-These demand analytics can then be translated to coming market changes, helping companies adapt to the needs and demand of their customers before they even become mainstream.
-Let your company set the pace of the market and be ahead of your competition.
+By analyzing the spending behavior of your customers you will be able to tune your marketing campaigns reaching people who are really interested in your services. Take advantage of life events or new purchases and target a more specific group of your audience. Reduce the cost of existing marketing campaigns and increase chances of engagement by only advertising to your customers what they actually need. Take your marketing to a whole new personalised level.
