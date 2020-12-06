@@ -24,20 +24,20 @@
 ##
 template: default
 component: contact
-heading: Get in touch
-icon: email-bold-blue.png
-description: Use the form below to send us a message.
-showAddress: true
-formTitle: Send us a message
+heading: Let us solve your problems intelligently
+icon:
+description: Use the form below to send us a message
+showAddress: false
+formTitle: ''
 formNamePlaceholder: Your full name*
 formEmailPlaceholder: Your work email*
 formCompanyPlaceholder: Your organisation's name*
 formJobPlaceholder: Your job title
 formMessagePlaceholder: Type your message here*
 formSubmitBtnTxt: Submit
-addressTitle: Or drop us a visit
-addressLine1: Aarschotsestraat 52 / 004
-addressLine2: 1800 Vilvoorde
+addressTitle: ''
+addressLine1: Rue Chair et Pain 3
+addressLine2: 1000 Bruselles
 addressCountry: Belgium
 addressEmail: hello@thesquaredev.com
 ---

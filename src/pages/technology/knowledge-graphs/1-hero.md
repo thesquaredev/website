@@ -13,9 +13,9 @@
 ##
 template: default
 component: hero
-heading: Innovation through research and development
-description: We currently work on research and development projects not only to serve our customers but also to develop our own product lines. Our goal is to apply AI in different fields and provide value in the world.
-image: black-and-yellow-electronic-chip.jpeg
-btnTxt: ''
-btnUrl: ''
+heading: Semantically connect data across the web and create new knowledge
+description: We analyse enormous chunks of information, organise it and produce new insights.
+image: linked-cables.jpg
+btnTxt:
+btnUrl:
 ---

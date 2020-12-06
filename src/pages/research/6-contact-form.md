@@ -1,6 +1,6 @@
 ---
 ##
-# This markdown file will render a "contact" component which renders a contact form. The following properties may be set 
+# This markdown file will render a "contact" component which renders a contact form. The following properties may be set
 # (properties with * are required, to leave a property blank use ''):
 #
 # template*: The page template to use, leave it "default" if not sure
@@ -24,9 +24,9 @@
 ##
 template: default
 component: contact
-heading: Ready?
-icon: 
-description: Let us solve your problems intelligently
+heading: Interested in learning more details?
+icon:
+description: Use the form below to send us a message
 showAddress: false
 formTitle: ''
 formNamePlaceholder: Your full name*
@@ -35,9 +35,9 @@ formCompanyPlaceholder: Your organisation's name*
 formJobPlaceholder: Your job title
 formMessagePlaceholder: Type your message here*
 formSubmitBtnTxt: Submit
-addressTitle: ''
+addressTitle: Or drop us a visit
 addressLine1: Rue Chair et Pain 3
 addressLine2: 1000 Bruselles
 addressCountry: Belgium
-addressEmail: hello@thesquaredev.com
+addressEmail: innovation@thesquaredev.com
 ---

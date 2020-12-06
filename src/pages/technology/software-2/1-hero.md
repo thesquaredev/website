@@ -13,9 +13,9 @@
 ##
 template: default
 component: hero
-heading: Innovation through research and development
-description: We currently work on research and development projects not only to serve our customers but also to develop our own product lines. Our goal is to apply AI in different fields and provide value in the world.
-image: black-and-yellow-electronic-chip.jpeg
-btnTxt: ''
-btnUrl: ''
+heading: Humans are good at algorithms; machines are better
+description: Software engineering is advancing to the level that optimization algorithms are now written by neural networks. We provide the tools to make this possible.
+image: server-rack.jpg
+btnTxt:
+btnUrl:
 ---

@@ -1,10 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faTwitter,
-  faLinkedin,
-  faGithub,
-} from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import './footer.scss'
 import { Link } from 'gatsby'
 
@@ -17,50 +13,50 @@ const Footer = () => (
         </div>
         <nav className="footer__menu col-md-9">
           <div className="footer__menu__col">
-            <h5>Solutions</h5>
+            <h5>Technology</h5>
             <div className="footer__menu__col__split">
               <ul>
                 <li>
-                  <Link to="/solutions/credit-scoring">
+                  <Link to="/technology/artificial-intelligence">
                     <div className="footer__menu__item">
-                      <span>Credit Scoring</span>
+                      <span>Explainable AI</span>
                     </div>
                   </Link>
                 </li>
                 <li>
-                  <Link to="/solutions/income-verification">
+                  <Link to="/technology/knowledge-graphs">
                     <div className="footer__menu__item">
-                      <span>Income Verification</span>
+                      <span>Knowledge Graphs</span>
                     </div>
                   </Link>
                 </li>
                 <li>
-                  <Link to="/solutions/marketing-insights">
+                  <Link to="/technology/software-2">
                     <div className="footer__menu__item">
-                      <span>Marketing Insights</span>
+                      <span>Software 2.0</span>
                     </div>
                   </Link>
                 </li>
               </ul>
               <ul>
                 <li>
-                  <Link to="/solutions/machine-learning">
+                  <Link to="/technology/machine-learning-engineering">
                     <div className="footer__menu__item">
-                      <span>Machine learning</span>
+                      <span>ML engineering</span>
                     </div>
                   </Link>
                 </li>
                 <li>
-                  <Link to="/solutions/knowledge-graphs">
+                  <Link to="/technology/natural-language-processing">
                     <div className="footer__menu__item">
-                      <span>Knowledge graphs</span>
+                      <span>NLP applications</span>
                     </div>
                   </Link>
                 </li>
                 <li>
-                  <Link to="/solutions/open-banking-api">
+                  <Link to="/technology/software-systems">
                     <div className="footer__menu__item">
-                      <span>Open Banking API</span>
+                      <span>Software systems</span>
                     </div>
                   </Link>
                 </li>
@@ -71,11 +67,28 @@ const Footer = () => (
             <h5>Company</h5>
             <ul>
               <li>
+                <Link to="/research">
+                  <div className="footer__menu__item">
+                    <span>Research</span>
+                  </div>
+                </Link>
+              </li>
+              <li>
                 <Link to="/company">
                   <div className="footer__menu__item">
                     <span>About us</span>
                   </div>
                 </Link>
+              </li>
+              <li>
+                <a
+                  href="https://medium.com/squaredev-publications"
+                  target="_blank"
+                >
+                  <div className="footer__menu__item">
+                    <span>Blog</span>
+                  </div>
+                </a>
               </li>
               <li>
                 <Link to="/company/#contact2">
@@ -86,32 +99,26 @@ const Footer = () => (
               </li>
             </ul>
           </div>
-          {/*<div className="footer__menu__col">*/}
-          {/*  <h5>Follow us</h5>*/}
-          {/*  <div className="footer__social">*/}
-          {/*    <a*/}
-          {/*      href="https://twitter.com/thesquaredev"*/}
-          {/*      target="_blank"*/}
-          {/*    >*/}
-          {/*      <FontAwesomeIcon icon={faTwitter} />*/}
-          {/*    </a>*/}
-          {/*    <a*/}
-          {/*      href="https://www.linkedin.com/company/thesquaredev/"*/}
-          {/*      target="_blank"*/}
-          {/*    >*/}
-          {/*      <FontAwesomeIcon icon={faLinkedin} />*/}
-          {/*    </a>*/}
-          {/*    <a href="https://github.com/thesquaredev" target="_blank">*/}
-          {/*      <FontAwesomeIcon icon={faGithub} />*/}
-          {/*    </a>*/}
-          {/*  </div>*/}
-          {/*</div>*/}
+          <div className="footer__menu__col">
+            <h5>Follow us</h5>
+            <div className="footer__social">
+              <a
+                href="https://www.linkedin.com/company/squaredev/"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faLinkedin} />
+              </a>
+              <a href="https://github.com/thesquaredev" target="_blank">
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+            </div>
+          </div>
         </nav>
       </div>
       <div className="row">
         <div className="footer__text col-12">
           Copyright © {new Date().getFullYear()} Squaredev, All rights reserved
-          | Cookies | Policy
+          {/* | Cookies | Policy */}
         </div>
       </div>
     </div>

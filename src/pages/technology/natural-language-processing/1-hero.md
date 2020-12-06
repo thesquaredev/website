@@ -13,9 +13,9 @@
 ##
 template: default
 component: hero
-heading: Innovation through research and development
-description: We currently work on research and development projects not only to serve our customers but also to develop our own product lines. Our goal is to apply AI in different fields and provide value in the world.
-image: black-and-yellow-electronic-chip.jpeg
-btnTxt: ''
-btnUrl: ''
+heading: Understand unstructured text; give meaning and context to produce insights
+description: Natural language processing can be used to teach AI the language of your business.
+image: library-books.jpg
+btnTxt:
+btnUrl:
 ---
